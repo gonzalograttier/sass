@@ -1,0 +1,82 @@
+$color1: #DDC9B4;
+$borde1: 5px solid $color1;
+$colorFondo: rgb(221,201,180);
+$gradFondo: radial-gradient(circle, rgba(221,201,180,1) 0%, rgba(80,90,92,1) 0%, rgba(74,85,88,1) 24%, rgba(70,82,85,1) 43%, rgba(62,76,81,1) 63%, rgba(42,61,69,1) 76%);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 35px;
+    color: $color1 !important;
+    padding-left: 30px;
+}
+.bgnav{
+    background: $colorFondo;
+    background: $gradFondo;
+}
+.navbar-nav{
+    padding-right: 30px;
+}
+.nav-link{
+    font-size: 25px;
+    color: $color1 !important;
+}
+.nav-link:hover{
+    color: #817f75 !important;
+    transform: scale(0.9);
+    transition: all 0.6s;
+}
+.jumbotron{
+    background-color: $color1;
+    color: rgb(75, 90, 93);
+    font-size: 45px;
+    margin: 0;
+    height: 400px;
+}
+.cajatitulo2{
+    text-align: center;
+    justify-content: center;
+    background: $colorFondo;
+    background: $gradFondo;
+}
+h2{
+    padding: 20px;
+}
+.al{
+    background-image: url(./img/pcb3dtrans.PNG);
+    background-size: cover;
+    height: 400px;
+    border: $borde1;
+}
+.am{
+    background-image: url(./img/pcb3d.PNG);
+    background-size: cover;
+    height: 400px;
+    border-top: $borde1;
+    border-bottom: $borde1;
+}
+.ar{
+    background-image: url(./img/fondo2.jpg);
+    background-size: cover;
+    height: 400px;
+    border: $borde1;
+}
+
+.zona1{
+    text-align: center;
+    /* align-items: center; */
+    line-height: 400px;
+    height: 400px;
+    background-image: url(./img/—Pngtree—blue\ electronics\ technology\ business\ background_727566.jpg);
+}
+
+.footer{
+    font-size: 30px;
+    text-align: center;
+    color: $color1;
+    background: $colorFondo;
+    background: $gradFondo;
+}
